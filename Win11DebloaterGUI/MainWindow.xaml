@@ -1,0 +1,15 @@
+<Window
+    x:Class="Win11DebloaterGUI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Win11 Debloater" Height="700" Width="1000">
+
+    <StackPanel Padding="24" Spacing="12">
+        <TextBlock Text="Win11 Debloater GUI" FontSize="28"/>
+        <ToggleSwitch Header="Debloat Windows"/>
+        <ToggleSwitch Header="Disable Sticky Keys"/>
+        <ToggleSwitch Header="Windows Defender"/>
+        <ToggleSwitch Header="Windows Update"/>
+        <ToggleSwitch Header="Dark Mode"/>
+    </StackPanel>
+</Window>
